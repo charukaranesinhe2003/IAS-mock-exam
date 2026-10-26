@@ -1,0 +1,10 @@
+IAS NEW EXAM PREPARATION
+552 new questions,46 perlecture, with English answers and simple Sinhala explanations.
+Extract this ZIP fully, then open index.html and choose New exam prep.
+Direct section: index.html#/mock
+Confirmed structure:35questions/35marks;11questions/43marks;3questions/22marks.
+All lectures are eligible in all parts. No calculators.
+The notice does not state a duration; the practice timer is selectable.
+Single/multiple MCQs and blanks are checked automatically. Written work is self-marked with suggested rubrics.
+Use Export new-exam progress to back up your question-card progress and saved paper.
+The original1,329 revision cards and65past-paper parts are also included.
