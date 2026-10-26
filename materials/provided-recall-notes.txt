@@ -1,0 +1,1698 @@
+# IT3070 – Information Assurance & Security
+
+240 Exam-Style Flashcards | Full Syllabus | English Questions & Answers + Sinhala Theory Recall
+
+මේක ඔබේ Weeks 1–12 lectures, tutorials සහ 2019–2024 past-paper patterns පදනම් කරගෙන සකස් කළ comprehensive revision deck එකක්.
+
+ප්‍රශ්නවලින් සැලකිය යුතු කොටසක් real-world scenarios ලෙස නිර්මාණය කරලා තියෙනවා. තවත් කොටසක් definitions, MCQ traps, calculations, true/false, comparisons සහ short structured answers වලට වෙන් කරලා තියෙනවා.
+
+Your Revision Deck
+
+# 240
+
+12
+
+Topics / weeks
+
+20
+
+Cards per week
+
+Q + A
+
+English format
+
+### How to use these cards
+
+ප්‍රශ්නය මුලින් කියවන්න. Answer එක නොබලා English වලින් ඔබම answer කරන්න. ඊට පස්සේ පහළ answer එක බලලා compare කරන්න.
+
+Definitions සඳහා keywords මතක තබාගන්න. Scenario questions සඳහා Identify → Explain → Justify method එක භාවිත කරන්න.
+
+මේවා newly written practice questions. Official exam questions නොවෙයි. Theory summaries ඔබේ lecture material එකට aligned; වඩාත් පැහැදිලි කිරීමට අවශ්‍ය supplementary examples වෙනම scenarios ලෙස සකස් කරලා තියෙනවා.
+
+# Week 1 – Introduction to Information Security
+
+Cards 001–020
+
+## Theory Background Recall – සිංහලෙන්
+
+Information Security කියන්නේ information සහ information systems unauthorized access, disclosure, modification සහ disruption වලින් protect කරන ක්‍රියාවලියයි.
+
+මේ සතියේ අනිවාර්යයෙන්ම තේරුම් ගන්න ඕනේ concepts:
+
+CIA Triad:
+
+- Confidentiality: Unauthorized disclosure වැළැක්වීම.
+- Integrity: Unauthorized modification වැළැක්වීම.
+- Availability: Authorized users ලට අවශ්‍ය වෙලාවට services ලබාදීම.
+
+Asset → Vulnerability → Threat → Risk කියන relationship එකත් වැදගත්. Attack එකක් Active/Passive සහ Insider/Outsider යන dimensions දෙකෙන්ම classify කරන්න පුළුවන්.
+
+ඔබේ 2022, 2023 සහ 2024 past papers වල CIA scenarios සහ Asset–Vulnerability–Risk questions නැවත නැවත භාවිත කරලා තියෙනවා.&#x20;
+
+Week 1 – Introduction to Information Security (1).pdf
+
+IT3070 -Information Assurance & Security (1).pdf
+
+
+
+### Flashcards
+
+001\. [Recall] What are the three main objectives of Information Security?
+
+Answer: Confidentiality, Integrity, and Availability — collectively called the CIA Triad.
+
+002\. [Scenario] An online examination server becomes inaccessible during an ongoing exam. Which CIA property is primarily violated?
+
+Answer: Availability, because authorized students cannot access the examination service when required.
+
+003\. [Scenario] An employee secretly downloads confidential customer records. Which CIA property is violated?
+
+Answer: Confidentiality, because sensitive information is disclosed to an unauthorized party.
+
+004\. [Scenario] An attacker changes students' examination marks without permission. Identify the affected CIA property.
+
+Answer: Integrity, because data has been modified without authorization.
+
+005\. [Recall] Define Information Assurance.
+
+Answer: Information Assurance consists of measures to protect information and systems by ensuring availability, integrity, authentication, confidentiality, and non-repudiation, including protection, detection, reaction, and restoration capabilities.
+
+006\. [Recall] Differentiate between Data Integrity and System Integrity.
+
+Answer: Data Integrity ensures information is modified only in authorized ways. System Integrity ensures a system performs its intended functions without unauthorized manipulation.
+
+007\. [Scenario] A shopping website has outdated software that could allow unauthorized database access. Identify the vulnerability.
+
+Answer: The outdated software containing an exploitable security weakness.
+
+008\. [Scenario] Hackers exploit an insecure API to steal customer records. Identify the asset, vulnerability, threat event, and risk.
+
+Answer: Asset: Customer records. Vulnerability: Insecure API. Threat event: Unauthorized data extraction. Risk: Potential financial, legal, and reputational damage due to a data breach.
+
+009\. [Recall] Differentiate between a Threat and a Vulnerability.
+
+Answer: A Threat is a potential danger that may cause harm. A Vulnerability is a weakness that may be exploited by a threat.
+
+010\. [Recall] What is a Countermeasure?
+
+Answer: A safeguard or mechanism used to prevent, detect, reduce, or recover from security attacks and their consequences.
+
+011\. [Scenario] A network attacker observes encrypted communications without modifying any packets. Classify the attack.
+
+Answer: Passive Attack. The attacker monitors communications without changing system resources.
+
+012\. [Scenario] A malicious user modifies a company's DNS configuration to redirect visitors. Is this an active or passive attack?
+
+Answer: Active Attack, because the attacker changes system configuration and affects its operation.
+
+013\. [Scenario] A system administrator steals confidential company files using legitimate internal access. Classify the attacker.
+
+Answer: Insider Attacker, because the attacker operates from within the organization's security perimeter.
+
+014\. [Scenario] An external hacker installs a backdoor on a public web server. Classify the attack by activity and origin.
+
+Answer: Active Outsider Attack. The outsider modifies the system by installing unauthorized software.
+
+015\. [Recall] Name four categories of active attacks described in the lecture.
+
+Answer: Replay, Masquerade, Message Modification, and Denial of Service.
+
+016\. [Scenario] An attacker captures a valid authentication message and retransmits it later. Identify the attack.
+
+Answer: Replay Attack.
+
+017\. [Scenario] A criminal pretends to be a legitimate employee to access a company system. Identify the attack category.
+
+Answer: Masquerade Attack, because one entity impersonates another.
+
+018\. [Recall] What is the difference between Vulnerability Assessment and Penetration Testing?
+
+Answer: Vulnerability Assessment identifies, classifies, and prioritizes weaknesses. Penetration Testing actively evaluates whether weaknesses can be exploited within an authorized testing scope.
+
+019\. [Scenario] A security analyst determines whether a newly discovered vulnerability can actually provide unauthorized access by safely attempting exploitation. Which assessment method is illustrated?
+
+Answer: Penetration Testing, provided it is authorized.
+
+020\. [Scenario] A company wants to identify which employee performed an unauthorized administrative action. Which additional security objective is important?
+
+Answer: Accountability, supported by appropriate audit logs and identity attribution.
+
+# Week 2 – Security Controls, Risks & Device Security
+
+Cards 021–040
+
+## Theory Background Recall – සිංහලෙන්
+
+Security Controls classify කරන ආකාර දෙකක් තියෙනවා.
+
+By Type: Physical, Technical/Logical, Administrative.
+
+By Objective: Preventive, Detective, Deterrent, Corrective, Recovery, Compensating.
+
+මෙහි ඉතාම වැදගත් exam trick එක තමයි Control Type සහ Control Objective දෙක වෙනම හඳුනාගැනීම.
+
+උදාහරණයක් ලෙස Firewall එකක් Technical Control එකක්, ඒක unauthorized traffic block කරනවා නම් Preventive Control එකක්.
+
+මේ සතියේ තවත් වැදගත් topics දෙකක් තමයි BYOD (Bring Your Own Device) සහ COPE (Corporate-Owned, Personally Enabled).&#x20;
+
+Week 2 – Introduction to Information Security Part II (1).pdf
+
+
+
+### Flashcards
+
+021\. [Recall] Identify the three categories of security controls based on their type.
+
+Answer: Physical Controls, Technical/Logical Controls, and Administrative Controls.
+
+022\. [Scenario] A data center uses CCTV cameras to record suspicious activities. Identify the control type and primary objective.
+
+Answer: Physical Control; Detective Objective.
+
+023\. [Scenario] A company installs a strong steel door and lock to prevent unauthorized entry. Classify the control.
+
+Answer: Physical Preventive Control.
+
+024\. [Scenario] Security software monitors file modifications and generates alerts when files change unexpectedly. Classify the control.
+
+Answer: Technical Detective Control.
+
+025\. [Scenario] Employees attend mandatory phishing-awareness training. Identify the control type and its main purpose.
+
+Answer: Administrative Control; primarily Preventive, because it helps reduce unsafe behavior before incidents occur.
+
+026\. [Scenario] A server login screen displays “Unauthorized access is prohibited and monitored.” Identify its primary control objective.
+
+Answer: Deterrent, because the warning aims to discourage potential attackers.
+
+027\. [Scenario] An antivirus tool removes malware after detecting an infection. Identify the control objective.
+
+Answer: Corrective, because it addresses the problem after the violation has occurred.
+
+028\. [Scenario] A company restores customer data from backups after a destructive ransomware incident. Identify the control objective.
+
+Answer: Recovery, because it restores information and operational capabilities.
+
+029\. [Recall] What is a Compensating Control?
+
+Answer: An alternative security control used when the primary control is unavailable or cannot be implemented.
+
+030\. [Scenario] A legacy system cannot support MFA, so access requires a restricted network connection and additional monitoring. What control approach is illustrated?
+
+Answer: Compensating Controls, intended to reduce risks that the unavailable authentication control would otherwise address.
+
+031\. [Recall] Define Information Risk Management.
+
+Answer: The process of identifying, assessing, treating, and monitoring information security risks to maintain them at acceptable levels.
+
+032\. [Scenario] A former employee's account remains active after termination. Identify the vulnerability and an appropriate control.
+
+Answer: Vulnerability: Failure to revoke access. Control: Prompt account deactivation through formal employee offboarding procedures.
+
+033\. [Recall] What is BYOD?
+
+Answer: Bring Your Own Device is a policy or practice allowing employees to use personally owned devices for work activities and organizational access.
+
+034\. [Scenario] An employee uses a personal smartphone to access company emails. Which device-management model is illustrated?
+
+Answer: BYOD.
+
+035\. [Recall] Identify two advantages and two disadvantages of BYOD.
+
+Answer: Advantages: Employee flexibility and reduced equipment costs. Disadvantages: Data leakage risk and difficulty managing diverse personal devices.
+
+036\. [Recall] What is COPE?
+
+Answer: Corporate-Owned, Personally Enabled is a model in which an organization provides devices while permitting approved personal use.
+
+037\. [Scenario] A company supplies employee smartphones and controls applications, configurations, and corporate-data removal. Is this BYOD or COPE?
+
+Answer: COPE, because the organization owns and manages the devices.
+
+038\. [Scenario] A company phone containing confidential files is lost. Recommend two suitable controls.
+
+Answer: Device encryption and remote corporate-data wipe capability.
+
+039\. [Recall] What is Mobile Device Management (MDM)?
+
+Answer: MDM is technology used to centrally configure, secure, monitor, and manage mobile devices, including applying access and device-security policies.
+
+040\. [Scenario] A security researcher investigates vulnerabilities with authorization, while another person exploits them to steal data. Distinguish the two activities.
+
+Answer: The authorized activity is Ethical Hacking/Penetration Testing. The unauthorized activity is Malicious Hacking.
+
+# Week 3 – GRC, COBIT 5 & Information Risk Management
+
+Cards 041–060
+
+## Theory Background Recall – සිංහලෙන්
+
+GRC = Governance, Risk Management and Compliance.
+
+- Governance: Organization එකේ goals සහ direction තීරණය කිරීම.
+- Risk Management: Risks identify, analyze, prioritize සහ treat කිරීම.
+- Compliance: Laws, regulations, policies සහ standards අනුගමනය කිරීම.
+
+COBIT 5 කියන්නේ IT Governance and Management framework එකක්. එහි Five Principles සහ Seven Enablers theory ලෙස වැදගත්.
+
+Risk Analysis වලදී:
+
+Qualitative: High, Medium, Low වැනි categories.
+
+Quantitative: Monetary values සහ formulas.
+
+\\[ SLE=AV\times EF \\]
+
+\\[ ALE=SLE\times ARO \\]
+
+2022 past paper එකේ ALE calculations අහලා තියෙනවා. 2023 සහ 2024 papers වල risk-management concepts නැවත භාවිත වෙනවා.&#x20;
+
+Week 3 - Part 1 - Information Risk Management - GRC  COBIT (2).pdf
+
+Week 3 - Part 2 - Information Risk Management.pdf
+
+IT3070 -Information Assurance & Security-Answers.pdf
+
+
+
+### Flashcards
+
+041\. [Recall] What does GRC stand for?
+
+Answer: Governance, Risk Management, and Compliance.
+
+042\. [Scenario] A company's board establishes IT security objectives and monitors whether management achieves them. Which GRC component is illustrated?
+
+Answer: Governance, because it establishes direction, oversight, and accountability.
+
+043\. [Scenario] A financial institution introduces procedures to satisfy mandatory regulatory requirements. Which GRC component is illustrated?
+
+Answer: Compliance.
+
+044\. [Recall] What is COBIT 5 primarily used for?
+
+Answer: Enterprise governance and management of information technology, helping organizations deliver value while balancing benefits, risks, and resources.
+
+045\. [Recall] State the five COBIT 5 principles.
+
+Answer: Meeting Stakeholder Needs; Covering the Enterprise End-to-End; Applying a Single Integrated Framework; Enabling a Holistic Approach; Separating Governance from Management.
+
+046\. [Scenario] A company translates stakeholder expectations into enterprise goals and then IT-related goals. Which COBIT 5 concept is illustrated?
+
+Answer: Meeting Stakeholder Needs, supported by the Goals Cascade.
+
+047\. [Recall] Differentiate between IT Governance and IT Management.
+
+Answer: Governance evaluates needs, sets direction, and monitors outcomes. Management plans, builds, runs, and monitors activities to achieve the established direction.
+
+048\. [Recall] Name four COBIT 5 enablers.
+
+Answer: Any four: Principles/Policies/Frameworks; Processes; Organizational Structures; Culture/Ethics/Behavior; Information; Services/Infrastructure/Applications; People/Skills/Competencies.
+
+049\. [Scenario] A security team classifies risks as High, Medium, and Low without assigning monetary values. Identify the analysis technique.
+
+Answer: Qualitative Risk Analysis.
+
+050\. [Scenario] A company estimates expected annual losses in rupees for ransomware attacks. Identify the analysis technique.
+
+Answer: Quantitative Risk Analysis.
+
+051\. [Recall] Define Asset Value (AV), Exposure Factor (EF), and Annualized Rate of Occurrence (ARO).
+
+Answer: AV is the asset's monetary value. EF is the proportion of value lost in one incident. ARO is the expected number of incidents per year.
+
+052\. [Calculation] A server is worth Rs. 200,000. A threat has an EF of 20%. Calculate SLE.
+
+Answer: SLE = 200,000 × 0.20 = Rs. 40,000.
+
+053\. [Calculation] An incident has an SLE of Rs. 40,000 and an ARO of 0.5. Calculate ALE.
+
+Answer: ALE = 40,000 × 0.5 = Rs. 20,000 per year.
+
+054\. [Calculation] An asset is worth Rs. 500,000, EF is 10%, and ARO is 0.2. Calculate ALE.
+
+Answer: SLE = 500,000 × 0.1 = Rs. 50,000. ALE = 50,000 × 0.2 = Rs. 10,000/year.
+
+055\. [Recall] What is Risk Mitigation?
+
+Answer: Implementing safeguards to reduce the likelihood or impact of identified risks.
+
+056\. [Scenario] A company stops storing highly sensitive customer information because the business no longer needs it. Identify the risk treatment.
+
+Answer: Risk Avoidance, because the organization eliminates the activity creating that particular risk.
+
+057\. [Scenario] An organization purchases cyber insurance to cover certain financial losses. Identify the risk treatment.
+
+Answer: Risk Transfer/Sharing. Some financial consequences are transferred, although the underlying operational risk may remain.
+
+058\. [Scenario] A small company decides not to introduce an expensive control for a low-impact risk and formally documents the decision. Identify the risk treatment.
+
+Answer: Risk Acceptance, provided the risk is within the organization's approved tolerance.
+
+059\. [Calculation] Risk A has probability rating 4 and impact rating 8. Risk B has probability rating 6 and impact rating 2. Which has greater qualitative risk priority using multiplication?
+
+Answer: Risk A = 4 × 8 = 32. Risk B = 6 × 2 = 12. Risk A has the higher rating.
+
+060\. [Scenario] A proposed security control costs Rs. 100,000 per year but only reduces expected annual loss by Rs. 20,000. What should management consider?
+
+Answer: Cost-Benefit Analysis. The control's cost exceeds the estimated direct loss reduction, although legal, operational, and other benefits must also be considered.
+
+# Week 4 – OCTAVE Risk Evaluation Framework
+
+Cards 061–080
+
+## Theory Background Recall – සිංහලෙන්
+
+OCTAVE = Operationally Critical Threat, Asset and Vulnerability Evaluation.
+
+OCTAVE කියන්නේ organizational information security risks evaluate කරන framework එකක්.
+
+OCTAVE Characteristics:
+
+- Strategic focus.
+- Asset-based.
+- Qualitative.
+- Top-down.
+- Self-directed.
+- Organization-wide perspective.
+
+Three OCTAVE Phases:
+
+1. Build Asset-Based Threat Profiles.
+2. Identify Infrastructure Vulnerabilities.
+3. Develop Security Strategy and Plans.
+
+Threat Profile එකක Asset, Access, Actor, Motive සහ Outcome යන elements ගැන විශේෂයෙන් අවධානය දෙන්න.
+
+OCTAVE-Allegro කියන්නේ information assets කෙරෙහි වඩාත් focus කරන approach එකක්.&#x20;
+
+Week 4 - OCTAVE Risk Evaluation Framework.pdf
+
+Week 4 - OCTAVE Risk Evaluation Framework.pdf
+
+
+
+### Flashcards
+
+061\. [Recall] Expand OCTAVE.
+
+Answer: Operationally Critical Threat, Asset and Vulnerability Evaluation.
+
+062\. [Recall] What is the primary objective of OCTAVE?
+
+Answer: To identify and evaluate organizational information-security risks to critical assets and develop appropriate protection strategies.
+
+063\. [Scenario] A company evaluates business-critical information assets and their threats using its own employees rather than relying entirely on outside specialists. Which framework's characteristics does this resemble?
+
+Answer: OCTAVE, because it is asset-focused and self-directed.
+
+064\. [Recall] State the three phases of OCTAVE in order.
+
+Answer: Build Asset-Based Threat Profiles; Identify Infrastructure Vulnerabilities; Develop Security Strategy and Plans.
+
+065\. [Recall] What is the first OCTAVE phase?
+
+Answer: Build Asset-Based Threat Profiles, beginning with identifying critical assets and their security requirements.
+
+066\. [Scenario] A hospital identifies patient records as its most critical information asset. Which OCTAVE activity is illustrated?
+
+Answer: Identification of critical assets during Phase 1.
+
+067\. [Recall] What is a Threat Profile?
+
+Answer: A structured description of potential threats to an asset, including relevant actor, access, motive, and outcome information.
+
+068\. [Recall] Identify the main OCTAVE threat-profile attributes.
+
+Answer: Asset, Access, Actor, Motive, and Outcome. Access and motive may be optional depending on the threat-profile detail.
+
+069\. [Scenario] A receptionist accidentally enters the wrong patient details into a medical system. Identify the Actor, Motive, and Outcome.
+
+Answer: Actor: Insider. Motive: Accidental. Outcome: Unauthorized or incorrect Modification of information.
+
+070\. [Scenario] A criminal deliberately downloads confidential financial records. Identify the Motive and Outcome.
+
+Answer: Motive: Deliberate. Outcome: Disclosure.
+
+071\. [Scenario] An attacker deletes an organization's inventory database, making the service unavailable. Which OCTAVE outcome is illustrated?
+
+Answer: Interruption/Loss/Destruction.
+
+072\. [Scenario] A criminal creates fake customer orders inside an information system. Identify the OCTAVE threat outcome.
+
+Answer: Fabrication, because unauthorized new information or objects are created.
+
+073\. [Recall] Name the four OCTAVE threat outcomes described in the lecture.
+
+Answer: Disclosure, Modification, Interruption/Loss or Destruction, and Fabrication.
+
+074\. [Recall] What does OCTAVE Phase 2 focus on?
+
+Answer: Identifying network access paths, relevant IT components, and infrastructure vulnerabilities associated with critical assets.
+
+075\. [Scenario] A risk team maps routers, servers, and network paths used to access critical student records. Which OCTAVE phase is illustrated?
+
+Answer: Phase 2 – Identify Infrastructure Vulnerabilities.
+
+076\. [Recall] What is performed during OCTAVE Phase 3?
+
+Answer: Risk analysis, risk prioritization, development of security protection strategies, and mitigation planning.
+
+077\. [Recall] What information contributes to an OCTAVE Risk Profile?
+
+Answer: Threat profile details, potential impacts, impact values, and relevant probability assessments.
+
+078\. [Scenario] A risk assessment evaluates reputation damage, financial loss, customer health, and legal penalties. Which OCTAVE activity is illustrated?
+
+Answer: Risk Impact Evaluation during Process 7 – Risk Analysis.
+
+079\. [Recall] How does OCTAVE differ from a purely technical vulnerability-scanning approach?
+
+Answer: OCTAVE emphasizes organizational strategy, critical assets, business impact, and self-directed assessment rather than only discovering technical weaknesses.
+
+080\. [Scenario] A small company needs an information-asset-focused OCTAVE approach that can operate without extensive organization-wide participation. Which variant is suitable?
+
+Answer: OCTAVE-Allegro.
+
+# Week 5 – Cryptography Fundamentals & Historical Ciphers
+
+Cards 081–100
+
+## Theory Background Recall – සිංහලෙන්
+
+Cryptography කියන්නේ information readable format එකකින් protected format එකකට transform කිරීම සහ related secure communication techniques අධ්‍යයනය කිරීමයි.
+
+මූලික වචන:
+
+- Plaintext: Original readable message.
+- Ciphertext: Encrypted message.
+- Encryption: Plaintext → Ciphertext.
+- Decryption: Ciphertext → Plaintext.
+- Key: Transformation එක control කරන value.
+
+Classical Ciphers වල Substitution සහ Transposition අතර වෙනස වැදගත්.
+
+Shift/Caesar Cipher Formula:
+
+\\[ E(x)=(x+k)\bmod26 \\]
+
+\\[ D(y)=(y-k)\bmod26 \\]
+
+Alphabet numbering: A = 0, B = 1, …, Z = 25.
+
+2019, 2022 සහ midterm papers වල Classical Cipher calculation සහ Cryptanalysis questions ඇතුළත් වෙනවා.&#x20;
+
+IT3070 - Information Assurance and Security.pdf
+
+
+
+### Flashcards
+
+081\. [Recall] Differentiate between Plaintext and Ciphertext.
+
+Answer: Plaintext is the original readable information. Ciphertext is the transformed output of encryption.
+
+082\. [Recall] What is a Cryptographic Key?
+
+Answer: A value used by a cryptographic algorithm to control encryption, decryption, or other cryptographic operations.
+
+083\. [Recall] Differentiate between Substitution and Transposition Ciphers.
+
+Answer: Substitution replaces symbols with other symbols. Transposition rearranges symbol positions without necessarily changing the symbols themselves.
+
+084\. [Calculation] Encrypt the letter A using Caesar Cipher with key 3.
+
+Answer: A = 0. (0 + 3) mod 26 = 3. Ciphertext = D.
+
+085\. [Calculation] Encrypt the letter X using Caesar Cipher with key 5.
+
+Answer: X = 23. (23 + 5) mod 26 = 2. Ciphertext = C.
+
+086\. [Calculation] Decrypt the ciphertext letter C using a Shift Cipher with key 5.
+
+Answer: C = 2. (2 − 5) mod 26 = 23. Plaintext = X.
+
+087\. [Calculation] Encrypt CAT using Caesar Cipher with key 3.
+
+Answer: C → F, A → D, T → W. Ciphertext = FDW.
+
+088\. [Calculation] Decrypt KHOOR using Caesar Cipher with key 3.
+
+Answer: K → H, H → E, O → L, O → L, R → O. Plaintext = HELLO.
+
+089\. [Recall] How many distinct keys are possible in a Caesar Shift Cipher using the English alphabet?
+
+Answer: 26 possible shifts, including the identity shift. There are 25 nontrivial shifts.
+
+090\. [Recall] What is a Brute-Force Attack against a Cipher?
+
+Answer: Systematically trying all possible keys until a meaningful plaintext or correct key is found.
+
+091\. [Scenario] An attacker tries all 25 nontrivial shift values against a ciphertext. Which cryptanalysis technique is illustrated?
+
+Answer: Brute-Force Cryptanalysis.
+
+092\. [Recall] What is the key-space size of a general monoalphabetic substitution cipher over 26 letters?
+
+Answer: \\(26!\\) possible substitution mappings.
+
+093\. [Recall] Why is brute-forcing general monoalphabetic substitution much harder than brute-forcing Caesar Cipher?
+
+Answer: General substitution has \\(26!\\) mappings, whereas Caesar Cipher has only 26 shifts.
+
+094\. [Scenario] An attacker studies how frequently letters appear in a long encrypted English message. Which technique is illustrated?
+
+Answer: Frequency Analysis.
+
+095\. [Recall] Why can Frequency Analysis help break simple substitution ciphers?
+
+Answer: Simple monoalphabetic substitution preserves many statistical patterns of the original language, allowing the attacker to infer likely mappings.
+
+096\. [Scenario] A long ciphertext contains repeated letter patterns and common word lengths. Recommend an approach more practical than checking all substitution keys.
+
+Answer: Statistical Cryptanalysis, particularly frequency analysis combined with linguistic pattern recognition.
+
+097\. [Recall] What is a Polyalphabetic Substitution Cipher?
+
+Answer: A cipher that uses multiple substitution alphabets, usually selected according to a key or position.
+
+098\. [Recall] How does a Vigenère Cipher differ from a Caesar Cipher?
+
+Answer: Caesar uses one constant shift. Vigenère uses a sequence of shifts derived from a repeated or extended keyword.
+
+099\. [Recall] Differentiate between Cryptography and Cryptanalysis.
+
+Answer: Cryptography develops and uses techniques for securing information. Cryptanalysis studies techniques for analyzing or defeating cryptographic protections.
+
+100\. [Scenario] A company develops its own secret cipher and assumes it is secure only because attackers do not know how the algorithm works. What security principle is being neglected?
+
+Answer: Kerckhoffs's Principle: A cryptosystem should remain secure even when the algorithm is public, provided the secret key remains protected.
+
+Card 100 includes supplementary classical-cryptography theory; Kerckhoffs's Principle is useful background and should not be assumed to be a guaranteed exam topic.
+
+# Week 6 – Symmetric Cryptography, DES, 3DES & AES
+
+Cards 101–120
+
+## Theory Background Recall – සිංහලෙන්
+
+Symmetric Encryption වල Sender සහ Receiver එකම shared secret key එක භාවිත කරනවා.
+
+ප්‍රධාන challenges:
+
+- Secure Key Distribution.
+- Key Management.
+- Algorithm Strength.
+
+Stream Cipher එකක keystream භාවිත කරනවා. Block Cipher එකක fixed-size blocks encrypt කරනවා.
+
+DES: 64-bit block, 56-bit effective key.
+
+3DES: Encrypt–Decrypt–Encrypt.
+
+AES: 128-bit block, 128/192/256-bit keys.
+
+Confusion: Key සහ ciphertext අතර relationship obscure කරනවා.
+
+Diffusion: Plaintext changes ciphertext පුරා spread කරනවා.
+
+### Flashcards
+
+101\. [Recall] Define Symmetric Encryption.
+
+Answer: Encryption in which communicating parties use the same shared secret key for encryption and decryption.
+
+102\. [Scenario] Two employees must secretly agree on an encryption key before exchanging protected messages. Identify the main challenge.
+
+Answer: The Symmetric Key Distribution Problem.
+
+103\. [Calculation] How many unique pairwise symmetric keys are required for 10 users if every pair shares a separate key?
+
+Answer: \\(10(10-1)/2=45\\) keys.
+
+104\. [Calculation] How many pairwise keys are required for 100 users?
+
+Answer: \\(100(99)/2=\boxed{4,950}\\) keys.
+
+105\. [Recall] Differentiate between Stream Ciphers and Block Ciphers.
+
+Answer: Stream Ciphers encrypt successive bits or small units, commonly with a keystream. Block Ciphers operate on fixed-size blocks.
+
+106\. [Calculation] Calculate the XOR output of 1011 and 1100.
+
+Answer: 0111.
+
+107\. [Calculation] A stream cipher uses plaintext 110010 and keystream 101011. Determine the ciphertext.
+
+Answer: 110010 XOR 101011 = 011001.
+
+108\. [Recall] Why can XOR be used for both stream-cipher encryption and decryption?
+
+Answer: Because \\((P\oplus K)\oplus K=P\\). Applying the same keystream twice restores the original data.
+
+109\. [Scenario] Two messages are encrypted using the same stream-cipher keystream. Identify the security problem.
+
+Answer: Keystream Reuse, which may reveal relationships between the plaintext messages and compromise confidentiality.
+
+110\. [Recall] Define Confusion in Cryptography.
+
+Answer: A cryptographic property that obscures the relationship between the secret key and the resulting ciphertext.
+
+111\. [Recall] Define Diffusion in Cryptography.
+
+Answer: A property that spreads the influence of plaintext bits across many ciphertext bits, reducing visible statistical patterns.
+
+112\. [Recall] What is the Avalanche Effect?
+
+Answer: A small input change produces a substantial and unpredictable change in the output.
+
+113\. [Recall] State the effective key length and block size of DES.
+
+Answer: Effective key length: 56 bits. Block size: 64 bits.
+
+114\. [Scenario] An attacker exhaustively searches all DES keys using modern computing resources. Which weakness is exploited?
+
+Answer: DES's insufficient 56-bit effective key length.
+
+115\. [Recall] Why does Double DES not provide the expected 112-bit security against generic key-recovery attacks?
+
+Answer: It is vulnerable to Meet-in-the-Middle cryptanalysis, which substantially reduces attack complexity.
+
+116\. [Recall] What is the operation sequence used in Triple DES EDE encryption?
+
+Answer: Encrypt → Decrypt → Encrypt.
+
+117\. [Recall] State the three standardized AES key lengths.
+
+Answer: 128 bits, 192 bits, and 256 bits.
+
+118\. [MCQ] AES-256 uses which standardized block size: 64, 128, 192, or 256 bits?
+
+Answer: 128 bits. The number 256 refers to the key length, not the block size.
+
+119\. [Recall] Which RC-family algorithm is a historical Stream Cipher: RC2, RC4, RC5, or RC6?
+
+Answer: RC4.
+
+120\. [Scenario] A company is choosing between DES, 3DES, and AES for a new encrypted application. Recommend the most appropriate modern standard.
+
+Answer: AES, using an appropriate secure implementation and authenticated encryption mode, because DES is obsolete and 3DES is legacy.
+
+# Week 7 – Public-Key Cryptography, Signatures & PKI
+
+Cards 121–140
+
+## Theory Background Recall – සිංහලෙන්
+
+Asymmetric Cryptography වල Public Key සහ Private Key දෙකක් තියෙනවා.
+
+Key selection එක exam එකේ වැදගත්:
+
+For Confidentiality:
+
+- Encrypt with Receiver's Public Key.
+- Decrypt with Receiver's Private Key.
+
+For Digital Signatures:
+
+- Sign with Sender's Private Key.
+- Verify with Sender's Public Key.
+
+Hybrid Encryption: Asymmetric mechanism එකෙන් session key establish කරලා, symmetric encryption එකෙන් actual data protect කරනවා.
+
+Digital Certificate: Public Key + Identity binding + CA Signature.
+
+PKI: Digital Certificates, CAs, Trust Chains සහ Revocation management එකට අදාළ infrastructure එක.
+
+### Flashcards
+
+121\. [Recall] Define Asymmetric Cryptography.
+
+Answer: Cryptography that uses a mathematically related public and private key pair for encryption, signatures, or key establishment.
+
+122\. [Scenario] Alice wants to encrypt a confidential message for Bob. Which key should Alice use?
+
+Answer: Bob's Public Key.
+
+123\. [Scenario] Bob receives a message encrypted with his public key. Which key does he use to decrypt it?
+
+Answer: Bob's Private Key.
+
+124\. [Scenario] Alice wants Bob to verify that a document was signed using her private signing key. Which key does Alice use?
+
+Answer: Alice's Private Key.
+
+125\. [Scenario] Bob receives a document signed by Alice. Which key should he use for signature verification?
+
+Answer: Alice's authenticated Public Key.
+
+126\. [Recall] What is the main purpose of Hybrid Cryptography?
+
+Answer: To combine efficient symmetric data encryption with asymmetric key establishment or key transport.
+
+127\. [Scenario] A company uses RSA-based key transport to protect an AES session key, then uses AES for large files. Identify the cryptographic approach.
+
+Answer: Hybrid Cryptography.
+
+128\. [Recall] What is a One-Way Function?
+
+Answer: A function that is efficient to compute but computationally difficult to reverse without appropriate special information.
+
+129\. [Recall] Identify two important applications of RSA.
+
+Answer: Public-key encryption/key transport and Digital Signatures.
+
+130\. [Recall] What is the main purpose of Diffie–Hellman?
+
+Answer: To enable two parties to establish a shared secret over an insecure communication channel.
+
+131\. [Scenario] Alice and Bob exchange public values and independently derive the same secret without directly transmitting it. Which protocol is illustrated?
+
+Answer: Diffie–Hellman Key Agreement.
+
+132\. [Scenario] An attacker replaces Bob's public key with their own key before Alice encrypts a message. Identify the security problem.
+
+Answer: Public-Key Substitution / Man-in-the-Middle Attack caused by failure to authenticate Bob's public key.
+
+133\. [Recall] Define Digital Signature.
+
+Answer: A cryptographic signature generated using a private signing key and verified using the corresponding public key to support origin authentication and integrity.
+
+134\. [Recall] Which three important security properties can Digital Signatures support?
+
+Answer: Origin Authentication, Integrity, and evidence supporting Non-repudiation.
+
+135\. [Scenario] A signed document is modified after signing. What should happen during signature verification?
+
+Answer: Verification should fail, because the message no longer corresponds to the valid signature.
+
+136\. [Scenario] Alice must send Bob a confidential and digitally signed document. Describe a suitable sequence.
+
+Answer: Alice signs using her Private Key, encrypts the signed data for Bob, and sends it. Bob decrypts using his Private Key and verifies using Alice's Public Key.
+
+137\. [Recall] What is a Digital Certificate?
+
+Answer: A digitally signed document binding an entity's identity to its public key.
+
+138\. [Recall] What is the role of a Certificate Authority (CA)?
+
+Answer: To verify applicable identity information, issue certificates, and digitally sign them to establish trusted public-key bindings.
+
+139\. [Scenario] A company discovers that its certificate's private key has been stolen. Which mechanism can identify the certificate as invalid before expiry?
+
+Answer: Certificate Revocation, communicated through mechanisms such as a Certificate Revocation List (CRL).
+
+140\. [Recall] Explain the purpose of a Chain of Trust in PKI.
+
+Answer: It allows certificate validation through a sequence of issuers leading to a trusted root certificate, provided signatures and validation requirements are satisfied.
+
+# Week 8 – Cryptographic Hash Functions & MACs
+
+Cards 141–160
+
+## Theory Background Recall – සිංහලෙන්
+
+Cryptographic Hash Function එකක් arbitrary-length input එකකින් fixed-length digest එකක් generate කරනවා.
+
+Secure Hash Function එකක වැදගත් security properties තුන:
+
+1. Pre-image Resistance: Given Hash → Find Input අමාරු විය යුතුයි.
+2. Second Pre-image Resistance: Given Input → Find Another Input with Same Hash අමාරු විය යුතුයි.
+3. Collision Resistance: Any Two Different Inputs with Same Hash හොයාගැනීම අමාරු විය යුතුයි.
+
+MAC = Message Authentication Code
+
+MAC එකෙන් Integrity සහ shared-key Message Authentication ලබාගන්න පුළුවන්. නමුත් Non-repudiation ලබාගන්න බැහැ.
+
+Important: Week 8 MAC කියන්නේ Message Authentication Code. Week 9 MAC කියන්නේ Mandatory Access Control.
+
+### Flashcards
+
+141\. [Recall] Define a Cryptographic Hash Function.
+
+Answer: A function that transforms an input of arbitrary length into a fixed-length digest while aiming to provide properties such as pre-image and collision resistance.
+
+142\. [Scenario] A user changes one character in a document, and the SHA-256 digest changes substantially. Which property is demonstrated?
+
+Answer: The Avalanche Effect.
+
+143\. [Recall] Define Pre-image Resistance.
+
+Answer: Given a hash value \\(h\\), it should be computationally infeasible to find an input \\(x\\) such that \\(H(x)=h\\).
+
+144\. [Recall] Define Second Pre-image Resistance.
+
+Answer: Given a particular input \\(x_1\\), it should be computationally infeasible to find a distinct \\(x_2\\) with the same hash.
+
+145\. [Recall] Define Collision Resistance.
+
+Answer: It should be computationally infeasible to find any two different inputs that produce the same hash value.
+
+146\. [Scenario] An attacker receives only a hash digest and attempts to find an input producing it. Which property is under attack?
+
+Answer: Pre-image Resistance.
+
+147\. [Scenario] An attacker receives a legitimate signed document and attempts to create another document with the same hash. Which property is relevant?
+
+Answer: Second Pre-image Resistance.
+
+148\. [Scenario] An attacker freely constructs two different documents that hash to the same digest. What has the attacker found?
+
+Answer: A Hash Collision, demonstrating a failure of collision resistance for that attack.
+
+149\. [Recall] Why must collisions exist for a fixed-length hash function with an unrestricted input space?
+
+Answer: Because infinitely many possible inputs map into a finite number of outputs.
+
+150\. [Recall] What is the output length of SHA-256?
+
+Answer: 256 bits, equal to 32 bytes or 64 hexadecimal characters.
+
+151\. [MCQ] Which is a more appropriate modern cryptographic hash algorithm for new applications: MD5, SHA-1, or SHA-256?
+
+Answer: SHA-256, because MD5 and SHA-1 have known collision-security weaknesses.
+
+152\. [Scenario] A company publishes a trusted SHA-256 digest alongside a software download. How can a user check file integrity?
+
+Answer: Compute the downloaded file's SHA-256 digest and compare it with the authenticated reference digest.
+
+153\. [Recall] Why are hash functions used in many Digital Signature schemes?
+
+Answer: To produce a compact message representation for efficient signature generation and verification.
+
+154\. [Scenario] Bob signs a document and Alice verifies the signature. What should Alice use to verify it?
+
+Answer: The received document, the signature, the algorithm's verification procedure, and Bob's authenticated Public Key.
+
+155\. [Recall] Define a Message Authentication Code.
+
+Answer: A keyed cryptographic tag used to verify message integrity and origin authentication between parties sharing a secret.
+
+156\. [Recall] What is HMAC?
+
+Answer: A standardized Message Authentication Code construction based on a cryptographic hash function and a shared secret key.
+
+157\. [Scenario] Two servers share a secret and must detect unauthorized changes to exchanged messages. Recommend a suitable mechanism.
+
+Answer: HMAC-SHA256 or another approved secure MAC construction.
+
+158\. [Recall] Why does a MAC not provide Non-repudiation?
+
+Answer: Both sender and receiver possess the same secret key and may generate valid authentication tags, so a third party cannot uniquely establish which party produced one.
+
+159\. [Scenario] A company needs third-party-verifiable evidence that a director signed an electronic contract. Should it use MAC or Digital Signature?
+
+Answer: Digital Signature, because it uses the signer's private key and can provide independently verifiable signing evidence.
+
+160\. [Recall] Differentiate between Hashing, MAC, and Digital Signature.
+
+Answer: Hashing computes an unkeyed digest. MAC provides shared-key authentication and integrity. Digital Signature provides public-key-verifiable authentication and integrity, with potential non-repudiation evidence.
+
+# Week 9 – Access Control, ACLs & RBAC
+
+Cards 161–180
+
+## Theory Background Recall – සිංහලෙන්
+
+Access Control කියන්නේ Who can access what, and perform which operation?
+
+Fundamental terms:
+
+- Subject: Access request කරන user/process.
+- Object: Access කරන resource.
+- Access Right: Read, Write, Execute වැනි permission.
+
+Three Access Control Policies:
+
+DAC: Owner/authorized entity ගේ discretion අනුව permissions.
+
+MAC: Mandatory security labels සහ clearances.
+
+RBAC: Roles මඟින් permissions assign කිරීම.
+
+Access Matrix: Rows = Subjects, Columns = Objects.
+
+ACL: Object-centric.
+
+Capability: Holder-centric.
+
+Least Privilege: Minimum necessary permissions.
+
+Separation of Duty: Responsibilities divide කිරීම.
+
+Dual Control: Sensitive action එකක් සඳහා multiple individuals එකට authorize කිරීම.
+
+### Flashcards
+
+161\. [Recall] Define Access Control.
+
+Answer: Mechanisms and policies that prevent unauthorized resource use and restrict authorized users to permitted actions.
+
+162\. [Scenario] A student successfully logs in but cannot edit examination marks. Is the denied operation related to Authentication or Authorization?
+
+Answer: Authorization, because access permissions determine whether the action is allowed.
+
+163\. [Recall] Define Subject, Object, and Access Right.
+
+Answer: Subject: Access-requesting entity. Object: Protected resource. Access Right: Permitted operation on that resource.
+
+164\. [Recall] Expand DAC, MAC, and RBAC.
+
+Answer: Discretionary Access Control, Mandatory Access Control, and Role-Based Access Control.
+
+165\. [Scenario] A file owner grants Read permission to another employee. Identify the Access Control model.
+
+Answer: DAC, because an authorized owner exercises discretion in granting access.
+
+166\. [Scenario] A government system compares a document's Top Secret classification with a user's clearance. Identify the model.
+
+Answer: MAC – Mandatory Access Control.
+
+167\. [Scenario] A company gives all accountants permissions through the Accountant Role. Identify the model.
+
+Answer: RBAC – Role-Based Access Control.
+
+168\. [Recall] In a typical Access Matrix, what do the rows, columns, and cells represent?
+
+Answer: Rows represent Subjects, columns represent Objects, and cells represent Access Rights.
+
+169\. [Scenario] An Access Matrix grants User A Write permission on File X but does not grant Read. Can User A read the file automatically?
+
+Answer: No. Read permission must be allowed by the applicable access-control rules; it should not be inferred from Write alone.
+
+170\. [Recall] What is an Access Control List (ACL)?
+
+Answer: An object-associated list identifying which users or groups have particular access permissions.
+
+171\. [Recall] What is a Capability Ticket?
+
+Answer: An unforgeable authorization reference or token specifying a resource and the access operations permitted to its holder.
+
+172\. [Scenario] An administrator wants to find all users who can access a confidential file. Which matrix representation is more directly suitable?
+
+Answer: The file's ACL, because ACLs provide an object-centric view.
+
+173\. [Scenario] A system needs to identify the resources and rights associated with a particular user or capability holder. Which representation is more direct?
+
+Answer: A Capability List, representing the rights available to that holder.
+
+174\. [Recall] Define Least Privilege.
+
+Answer: Granting subjects only the minimum permissions necessary for their authorized tasks.
+
+175\. [Scenario] A lecturer is allowed to edit marks only for assigned courses. Which principle is illustrated?
+
+Answer: Least Privilege.
+
+176\. [Recall] Define Separation of Duty.
+
+Answer: Dividing critical responsibilities across different individuals to reduce fraud, errors, and misuse of authority.
+
+177\. [Scenario] One employee creates a payment request while another approves it. Identify the control principle.
+
+Answer: Separation of Duty.
+
+178\. [Scenario] A bank requires two officers to jointly authorize a large transfer. Identify the access-control requirement.
+
+Answer: Dual Control.
+
+179\. [Recall] Differentiate between Open and Closed Access Control Policies.
+
+Answer: Open Policy allows access unless explicitly denied. Closed Policy denies access unless explicitly authorized.
+
+180\. [Scenario] Two policies apply to a request: one permits access and another denies it. What must the system define?
+
+Answer: A Policy Conflict Resolution rule, such as a Deny-Overrides strategy where appropriate.
+
+# Week 10 – User Authentication, Passwords, MFA & SSO
+
+Cards 181–200
+
+## Theory Background Recall – සිංහලෙන්
+
+Authentication කියන්නේ User කෙනෙක් claim කරන identity එක verify කිරීම.
+
+Identification: Who do you claim to be?
+
+Verification: Can you prove it?
+
+Authorization: What are you allowed to do?
+
+Authentication Factors හතර:
+
+- Something You Know: Password, PIN.
+- Something You Have: Smart Card, Security Token.
+- Something You Are: Fingerprint, Face.
+- Something You Do: Typing rhythm, handwriting characteristics.
+
+MFA: Different factor categories දෙකක් හෝ වැඩි ගණනක්.
+
+SSO: One authentication arrangement for multiple connected applications.
+
+Salted Password Hashing: Password + Random Salt → Password Verifier.
+
+Challenge-Response: Server-generated fresh nonce + secret-dependent response.
+
+### Flashcards
+
+181\. [Recall] Differentiate between Identification and Authentication Verification.
+
+Answer: Identification presents a claimed identity, such as a username. Verification checks authentication evidence to confirm that identity.
+
+182\. [Scenario] A user enters a correct password but cannot access the administrator dashboard. What explains the denial?
+
+Answer: Authentication succeeded, but Authorization denied access because the user lacks the required permissions.
+
+183\. [Recall] Name the four general authentication factor categories described in the lecture.
+
+Answer: Something You Know, Something You Have, Something You Are, and Something You Do.
+
+184\. [Scenario] A login requires a password and a hardware security token. Is this MFA?
+
+Answer: Yes. The password is a Knowledge Factor, and the token is a Possession Factor.
+
+185\. [Scenario] A login requires both a password and a PIN. Does this automatically qualify as MFA?
+
+Answer: No. Both are Knowledge Factors.
+
+186\. [Recall] Define Multifactor Authentication (MFA).
+
+Answer: Authentication requiring evidence from two or more distinct factor categories.
+
+187\. [Scenario] An attacker obtains a password database and tests candidate passwords without contacting the login server. Identify the attack.
+
+Answer: Offline Dictionary Attack.
+
+188\. [Scenario] An attacker tries one common password across hundreds of accounts. Identify the attack.
+
+Answer: Popular Password Attack / Password Spraying.
+
+189\. [Scenario] An attacker repeatedly guesses passwords against one employee account. Identify the attack and one control.
+
+Answer: Specific Account Attack. Apply suitable login rate limiting or temporary lockout controls.
+
+190\. [Scenario] An employee leaves a logged-in workstation unattended, and another person accesses confidential files. Identify the attack.
+
+Answer: Workstation Hijacking.
+
+191\. [Scenario] An employee uses the same password for personal email and a corporate system. Identify the main risk.
+
+Answer: Password Reuse Risk. Compromise of one credential may expose other accounts.
+
+192\. [Recall] What is Single Sign-On (SSO)?
+
+Answer: An authentication arrangement allowing users to authenticate once and access multiple associated applications without repeated separate logins.
+
+193\. [Scenario] A university integrates Courseweb, the Library Portal, and Student Services into one central login. Identify the mechanism.
+
+Answer: Single Sign-On (SSO).
+
+194\. [Recall] Give one advantage and one disadvantage of SSO.
+
+Answer: Advantage: Reduced password-management burden. Disadvantage: Compromise or outage of centralized authentication may affect multiple applications.
+
+195\. [Scenario] A company implements SSO across many critical applications. Why is strong MFA especially important?
+
+Answer: Because compromise of the central SSO account may expose multiple applications; MFA reduces dependence on a password alone.
+
+196\. [Recall] What is a Salt in Password Hashing?
+
+Answer: A unique random value used with a password during hashing to reduce precomputed attacks and prevent identical passwords from producing identical verifiers with different salts.
+
+197\. [Scenario] Two users select the same password, but their stored password hashes are different because the system uses independent salts. Why is this beneficial?
+
+Answer: It prevents simple equality comparisons from revealing shared passwords and reduces the effectiveness of precomputed hash attacks.
+
+198\. [Recall] Why should Password Storage use a slow password-hashing function?
+
+Answer: To increase the computational cost of offline password guessing against stolen verifiers.
+
+199\. [Scenario] An attacker records a previously valid authentication response and sends it again. Identify the attack.
+
+Answer: Replay Attack.
+
+200\. [Recall] How does a Challenge-Response Protocol use a nonce to reduce replay attacks?
+
+Answer: The server issues a fresh challenge for each authentication attempt, requiring a new secret-dependent response that should not match a previously recorded response.
+
+# Week 11 – Disaster Recovery & Business Continuity
+
+Cards 201–220
+
+## Theory Background Recall – සිංහලෙන්
+
+DRP = Disaster Recovery Planning
+
+Damaged/disrupted systems restore කිරීම.
+
+BCP = Business Continuity Planning
+
+Disaster එකක් අතරතුර critical business operations continue කිරීම.
+
+Recovery Timeline:
+
+Normal Service → Failure → Interruption → Alternate Mode → Full Restoration.
+
+Important Terms:
+
+- Interruption Window: Acceptable time before essential service resumes.
+- Alternate Mode: Temporary operating arrangement.
+- SDO: Service Delivery Objective.
+- MTO: Maximum Tolerable Outage.
+
+Recovery Sites: Cold, Warm, Hot, Mirrored.
+
+Six BCP Phases: Project Initiation → Business/Risk Analysis → Design & Development → Implementation → Testing → Maintenance.
+
+### Flashcards
+
+201\. [Recall] What is the primary CIA security objective addressed by DRP and BCP?
+
+Answer: Availability.
+
+202\. [Recall] Differentiate between Disaster Recovery and Business Continuity.
+
+Answer: Disaster Recovery restores disrupted systems and infrastructure. Business Continuity maintains critical operations during the disruption.
+
+203\. [Scenario] A company reconstructs its damaged database server after a flood. Is this DR or BC?
+
+Answer: Disaster Recovery.
+
+204\. [Scenario] A hospital transfers essential patient services to a backup system during an outage. Is this DR or BC?
+
+Answer: Business Continuity.
+
+205\. [Recall] Define Alternate Mode.
+
+Answer: A temporary operating arrangement used to maintain essential services while normal operations remain disrupted.
+
+206\. [Recall] What does SDO represent in the lecture's recovery timeline?
+
+Answer: Service Delivery Objective — the level of service targeted during Alternate Mode.
+
+207\. [Recall] What is the purpose of Maximum Tolerable Outage (MTO)?
+
+Answer: To establish how long disrupted or reduced operations can be tolerated before the business impact becomes unacceptable.
+
+208\. [Calculation] A server fails at 8:00 AM, and essential alternate service resumes at 9:30 AM. Calculate the initial interruption duration.
+
+Answer: 1 hour 30 minutes.
+
+209\. [Calculation] Alternate Mode begins at 9:30 AM and full restoration completes at 2:30 PM. How long does Alternate Mode last?
+
+Answer: 5 hours.
+
+210\. [Recall] What is a Cold Site?
+
+Answer: An alternate facility with basic infrastructure but limited operational equipment, requiring substantial setup before recovery.
+
+211\. [Recall] What is a Warm Site?
+
+Answer: A partially equipped alternate facility that needs additional preparation, configuration, or data restoration before operation.
+
+212\. [Recall] What is a Hot Site?
+
+Answer: An equipped and prepared alternate facility capable of supporting relatively rapid service recovery.
+
+213\. [Scenario] A financial institution needs very rapid recovery and maintains closely replicated infrastructure at another location. Identify the strategy.
+
+Answer: Mirrored Site.
+
+214\. [Recall] State one advantage and one disadvantage of a Mirrored Site.
+
+Answer: Advantage: Very fast recovery. Disadvantage: High implementation and maintenance cost.
+
+215\. [Scenario] Two compatible organizations agree to provide backup facilities for each other during emergencies. Identify the approach.
+
+Answer: Mutual Backup.
+
+216\. [Recall] What is Remote Journaling?
+
+Answer: Periodically transferring transaction records or data changes to a remote system to support recovery.
+
+217\. [Scenario] A company stores data using RAID but has no off-site backups. Is RAID alone sufficient for disaster recovery?
+
+Answer: No. RAID provides disk-level redundancy but may not protect against site destruction, ransomware, or accidental deletion.
+
+218\. [Recall] State the six phases of Business Continuity Planning in order.
+
+Answer: Project Initiation; Business/Risk Analysis; Design and Development; Implementation; Testing; Maintenance.
+
+219\. [Scenario] A company simulates a data-center outage and checks whether staff can activate backup services. Which BCP phase is illustrated?
+
+Answer: Testing.
+
+220\. [Scenario] A company relocates its headquarters and changes critical systems. What should happen to its Business Continuity Plan?
+
+Answer: The plan must be reviewed, updated, and tested as part of ongoing Maintenance.
+
+# Week 12 – Firewalls, ACLs & Network Security
+
+Cards 221–240
+
+## Theory Background Recall – සිංහලෙන්
+
+Firewall කියන්නේ predefined security rules අනුව network traffic allow/deny කරන system එකක්.
+
+Packet Filtering සඳහා:
+
+- Source IP
+- Destination IP
+- Source Port
+- Destination Port
+- Protocol
+- Direction
+
+වැදගත්.
+
+ACL: Rules top-to-bottom evaluate කරනවා; lecture case study එකේ first matching rule එක apply කරනවා.
+
+Stealth Rule: Firewall එකම protect කරනවා.
+
+Cleanup Rule: Remaining traffic deny කරනවා.
+
+Stateless: No session tracking.
+
+Stateful: Connection state tracking.
+
+DMZ: Public servers සහ Internal Network separate කරනවා.
+
+IDS: Detect and Alert.
+
+IPS: Detect and Prevent.
+
+SIEM: Log collection and correlation.
+
+VPN: Protected tunnel over an untrusted/shared network.
+
+### Flashcards
+
+221\. [Recall] Define a Firewall.
+
+Answer: A hardware or software security system that controls network traffic according to predefined security rules.
+
+222\. [Recall] Which packet-header attributes are commonly evaluated by basic Packet Filtering?
+
+Answer: Source IP, Destination IP, Source Port, Destination Port, and Transport Protocol.
+
+223\. [Scenario] A firewall denies TCP traffic to Port 22 on an internal server. Which service is commonly being restricted?
+
+Answer: SSH (Secure Shell).
+
+224\. [Recall] What is an ACL in Network Security?
+
+Answer: An ordered set of rules used to permit or deny network traffic based on defined conditions.
+
+225\. [Scenario] An ACL has Rule 1: Allow All Traffic and Rule 2: Deny Traffic from a Malicious Host. Under first-match processing, what is the problem?
+
+Answer: The first rule permits the malicious host's traffic before the deny rule can be evaluated.
+
+226\. [Recall] What is a Stealth Rule?
+
+Answer: A rule intended to restrict unauthorized traffic directed at the firewall itself.
+
+227\. [Recall] What is a Cleanup Rule?
+
+Answer: A final rule that denies traffic not explicitly permitted by earlier rules.
+
+228\. [Scenario] A packet does not match any specific allow rule and reaches the final Deny Any rule. What happens?
+
+Answer: The packet is denied by the Cleanup Rule.
+
+229\. [Recall] Differentiate between Stateless and Stateful Packet Filtering.
+
+Answer: Stateless filtering evaluates packets individually. Stateful filtering tracks connection state and determines whether packets belong to authorized sessions.
+
+230\. [Scenario] A firewall recognizes a reply packet as belonging to a previously authorized TCP connection. Which technique is illustrated?
+
+Answer: Stateful Packet Inspection.
+
+231\. [Scenario] An attacker sends packets with forged source IP addresses. Which technique should a firewall use to restrict invalid source addresses?
+
+Answer: Anti-Spoofing Filtering.
+
+232\. [Recall] What is a Bastion Host?
+
+Answer: A hardened system exposed to an untrusted network to provide controlled gateway or public-facing services.
+
+233\. [Scenario] A company places its public website in a separate network zone between the Internet and an internal payroll database. Identify the architecture.
+
+Answer: DMZ – Demilitarized Zone.
+
+234\. [Recall] Why is a DMZ useful?
+
+Answer: It separates publicly accessible services from sensitive internal systems, reducing the direct exposure of protected networks.
+
+235\. [Recall] Differentiate between IDS and IPS.
+
+Answer: IDS detects suspicious activity and generates alerts. IPS detects suspicious activity and can actively block or interrupt threats.
+
+236\. [Recall] Differentiate between Signature-Based and Anomaly-Based Intrusion Detection.
+
+Answer: Signature-Based Detection compares events with known attack patterns. Anomaly-Based Detection identifies deviations from expected normal behavior.
+
+237\. [Scenario] A monitoring system generates an intrusion alert for legitimate network traffic. Identify the classification error.
+
+Answer: False Positive.
+
+238\. [Scenario] An actual intrusion occurs, but the monitoring system fails to identify it. Identify the classification error.
+
+Answer: False Negative.
+
+239\. [Recall] Differentiate between UTM and SIEM.
+
+Answer: UTM integrates multiple security controls such as firewall and intrusion detection. SIEM collects and correlates security events from multiple sources for monitoring and investigation.
+
+240\. [Scenario] A company needs to protect traffic transmitted between two offices over the public Internet. Recommend a suitable network solution.
+
+Answer: A properly configured Site-to-Site VPN using authenticated encryption.
+
+# Bonus Section – 20 Advanced Past-Paper & Integrated Scenario Cards
+
+Cards 241–260 | More difficult · Short Structured Answers · Essay Preparation
+
+මෙම අමතර questions 20 විශේෂයෙන්ම පරණ papers වල තිබෙන mixed-topic scenarios, Legal/Ethical aspects සහ advanced security-model concepts සඳහා සකස් කරලා තියෙනවා.
+
+2019 paper එකේ Intellectual Property, Cybercrime Prosecution සහ Bell–LaPadula Model පිළිබඳ questions තිබෙනවා. මේවා කලින් සතිවල flashcards තුළ සම්පූර්ණයෙන් ඇතුළත් නොවූ නිසා අමතරව එකතු කළා.&#x20;
+
+IT3070 - Information Assurance and Security.pdf
+
+IT3070 - Information Assurance and Security.pdf
+
+
+
+## Background Recall – Supplementary Theory
+
+Bell–LaPadula (BLP) කියන්නේ Confidentiality-centered Mandatory Access Control model එකක්.
+
+- Simple Security Property: No Read Up.
+- Star (\*) Property: No Write Down.
+
+මේ rules වලින් classified data lower security levels වෙත leak වීම වැළැක්වීමට උත්සාහ කරනවා.
+
+Intellectual Property:
+
+- Copyright: Original expression protect කරනවා.
+- Patent: Qualifying inventions සඳහා legal protection.
+- Trade Secret: Secret business information protect කිරීම.
+
+මේ concepts පරණ examination එකේ තිබුණත්, ඔබේ නව exam එකේ ඒවා අනිවාර්යයෙන්ම ඇතුළත් වෙයි කියලා guarantee නැහැ.
+
+### Advanced Flashcards
+
+241\. [Recall] What is the Bell–LaPadula Security Model primarily designed to protect?
+
+Answer: Confidentiality of information through mandatory security classification rules.
+
+242\. [Recall] State the Simple Security Property of Bell–LaPadula.
+
+Answer: No Read Up. A subject must not read information at a higher security classification than permitted by its clearance.
+
+243\. [Recall] State the Star (\*) Property of Bell–LaPadula.
+
+Answer: No Write Down. A subject must not write information to a lower classification level in violation of the model's confidentiality rules.
+
+244\. [Scenario] An officer with Confidential clearance attempts to read a Top Secret document. What does the BLP Simple Security Property require?
+
+Answer: Deny access, because the subject must not read information above the authorized classification level.
+
+245\. [Scenario] A Top Secret-cleared process attempts to write classified information into an Unclassified file. Which BLP rule is relevant?
+
+Answer: The Star (\*) Property — No Write Down.
+
+246\. [Recall] Differentiate between Copyright, Patent, and Trade Secret.
+
+Answer: Copyright protects qualifying original expression. Patents protect qualifying inventions. Trade-secret protection applies to valuable information maintained as secret under applicable legal conditions.
+
+247\. [Scenario] A company protects its proprietary source code by keeping implementation details confidential through employee agreements and restricted access. Which intellectual-property approach is illustrated?
+
+Answer: Trade Secret Protection, potentially alongside Copyright protection of the source-code expression.
+
+248\. [Scenario] A developer copies a competitor's protected software source code without permission. Which intellectual-property right may be infringed?
+
+Answer: Copyright.
+
+249\. [Recall] Why can cybercrime prosecution be difficult even when a security incident is confirmed?
+
+Answer: Challenges include attacker attribution, cross-border jurisdiction, collecting admissible digital evidence, preserving chain of custody, and proving the required elements of an offense.
+
+250\. [Scenario] Investigators recover logs indicating that a foreign server participated in a cyberattack. Why does this not automatically prove the attacker's identity?
+
+Answer: The server may be compromised, proxied, or controlled by another actor. Additional reliable evidence is needed for attribution.
+
+## Integrated Scenarios – Higher Difficulty
+
+251\. [Structured – 4 Marks] A company's customer database suffers an SQL Injection attack through a vulnerable web application. Identify the asset, vulnerability, threat event, and two countermeasures.
+
+Model Answer:
+
+- Asset: Customer database and associated records.
+- Vulnerability: Unsafe construction of database queries from untrusted input.
+- Threat event: Unauthorized access or modification through SQL Injection.
+- Countermeasures: Parameterized Queries/Prepared Statements and appropriate application/database authorization controls.
+
+Sinhala recall: Threat සහ Vulnerability එකම දෙයක් නෙවෙයි. Unsafe database query එක weakness එක. SQL Injection exploitation එක attack event එක.
+
+252\. [Structured – 4 Marks] A financial organization experiences ransomware, making its customer database unavailable. Classify four relevant security controls by type and objective.
+
+Model Answer:
+
+| Control                                               | Type                  | Objective  |
+| ----------------------------------------------------- | --------------------- | ---------- |
+| Endpoint protection blocking known malicious software | Technical             | Preventive |
+| Security monitoring identifying suspicious activity   | Technical             | Detective  |
+| Malware removal and affected-host remediation         | Technical             | Corrective |
+| Restoring verified backups                            | Technical/Operational | Recovery   |
+
+Sinhala recall: Control එකේ implementation එකෙන් Type එක identify කරන්න. ඒකෙන් කරන්නේ මොකක්ද කියලා බලලා Objective එක identify කරන්න.
+
+253\. [Structured – 4 Marks] A company has an asset worth Rs. 600,000. Ransomware has an EF of 30% and an ARO of 0.5. Calculate the SLE and ALE.
+
+Model Answer:
+
+\\[ SLE=600,000\times0.30=Rs.\ 180,000 \\]
+
+\\[ ALE=180,000\times0.5=Rs.\ 90,000 \\]
+
+Expected annualized loss = Rs. 90,000.
+
+254\. [Scenario – 4 Marks] An organization has 50 users who require distinct pairwise shared symmetric keys. Calculate the required keys and recommend a strategy for improving key management.
+
+Model Answer:
+
+\\[ N=\frac{50(49)}2=\boxed{1,225} \\]
+
+A suitable authenticated key-establishment infrastructure using asymmetric cryptography can reduce the need to distribute and manually manage a separate pre-shared secret for every user pair.
+
+255\. [Scenario – 5 Marks] A healthcare organization needs integrity, sender authentication, confidentiality, and evidence of signing for a medical report. Propose a cryptographic solution.
+
+Model Answer:
+
+1. Use a trusted certificate/public-key binding to authenticate the signer's key.
+2. Generate a Digital Signature using the sender's Private Key.
+3. Verify the signature using the sender's authenticated Public Key.
+4. Protect the report with suitable authenticated encryption, typically using a hybrid cryptographic approach.
+5. Protect private keys and maintain appropriate audit records.
+
+The signature supports Integrity, Authentication, and evidence of signing; encryption provides Confidentiality.
+
+256\. [Scenario – 5 Marks] A banking system uses RBAC. A teller can create a transaction, but the teller must not approve their own high-value transaction. Identify and explain three relevant security principles.
+
+Model Answer:
+
+- RBAC: Permissions are assigned according to job roles.
+- Least Privilege: Tellers receive only permissions necessary for their duties.
+- Separation of Duty: Transaction creation and approval are divided to reduce fraud.
+
+For sufficiently sensitive transactions, Dual Control may additionally require multiple authorized approvers.
+
+257\. [Scenario – 5 Marks] A company deploys SSO for its customer dashboard. Users are experiencing phishing attacks and repeated unauthorized login attempts. Recommend three authentication security improvements.
+
+Model Answer:
+
+1. Introduce phishing-resistant MFA where practical.
+2. Apply login rate limiting and suspicious-activity monitoring.
+3. Securely manage authentication sessions and provide suitable session termination/revocation.
+
+These measures reduce reliance on passwords and make account compromise harder.
+
+258\. [Scenario – 6 Marks] A company places a public web server in a DMZ and keeps an internal customer database behind another firewall. Explain why this architecture improves security and identify two remaining risks.
+
+Model Answer:
+
+The DMZ separates Internet-facing services from sensitive internal resources. The outer firewall restricts access to public services, while the inner firewall controls communication between the DMZ and internal systems.
+
+Remaining risks include:
+
+- Exploitation of application vulnerabilities on the public server.
+- Misconfigured firewall rules permitting unnecessary access to the internal database.
+
+Additional defenses include application security testing, least-privilege rules, logging, and intrusion detection.
+
+259\. [Scenario – 6 Marks] A hospital needs continuous access to patient records. Its main server fails, and services must resume quickly with minimal data loss. Recommend suitable availability and recovery measures.
+
+Model Answer:
+
+- Deploy a prepared Hot Site or Mirrored Site suitable for the hospital's recovery objectives.
+- Use appropriate data replication to reduce potential data loss.
+- Maintain separate protected backups.
+- Implement failover procedures for critical services.
+- Test recovery regularly.
+- Define appropriate recovery-time and service-delivery targets.
+
+Sinhala recall: Mirroring විතරක් තිබුණා කියලා independent backups අවශ්‍ය නැති වෙන්නේ නැහැ.
+
+260\. [Essay – 8 Marks] A university faces stolen user credentials, unauthorized changes to examination results, a ransomware infection, and loss of online exam availability. Recommend an integrated Information Assurance strategy.
+
+Model Answer:
+
+An integrated strategy should address the CIA Triad and employ multiple layers of security.
+
+1. Authentication: Introduce MFA and secure password-verifier storage to reduce credential compromise.
+2. Access Control: Use RBAC and Least Privilege to restrict examination-result modification.
+3. Integrity Protection: Apply audit logging, database integrity controls, and appropriate digital signatures where verifiable document approval is required.
+4. Network Security: Deploy firewalls, IDS/IPS, and centralized security monitoring.
+5. Vulnerability Management: Perform assessments, controlled penetration testing, and timely patching.
+6. Risk Management: Identify critical assets, evaluate risks, and select appropriate safeguards.
+7. Disaster Recovery: Maintain protected backups and tested restoration procedures.
+8. Business Continuity: Provide an alternate operational environment so essential examination services can continue during disruptions.
+
+This layered approach helps preserve Confidentiality, Integrity, and Availability while improving detection, response, and recovery.
+
+# Final Rapid-Recall Reference
+
+මේ section එක Flashcards 260ම revise කරනකොට අත්‍යවශ්‍ය English keywords ඉක්මනින් මතක් කරගැනීමටයි.
+
+## 1. Critical Comparisons
+
+| Topic                           | Remember This                                                  |
+| ------------------------------- | -------------------------------------------------------------- |
+| Threat vs Vulnerability         | Potential danger vs exploitable weakness                       |
+| Threat vs Risk                  | Potential harmful event vs expected possibility/impact of loss |
+| Confidentiality vs Integrity    | Prevent disclosure vs prevent unauthorized modification        |
+| Authentication vs Authorization | Verify identity vs determine permissions                       |
+| Active vs Passive               | Affects resources/operations vs observes information           |
+| Insider vs Outsider             | Origin inside vs outside security perimeter                    |
+| Preventive vs Detective         | Prevent incident vs detect incident                            |
+| Corrective vs Recovery          | Fix problem vs restore services and resources                  |
+| Qualitative vs Quantitative     | Categories/ratings vs monetary estimates                       |
+| Symmetric vs Asymmetric         | Shared secret vs public/private keys                           |
+| Stream vs Block Cipher          | Keystream-based processing vs fixed-size blocks                |
+| Confusion vs Diffusion          | Obscure key relationship vs spread input influence             |
+| Hash vs MAC                     | Unkeyed digest vs keyed authentication tag                     |
+| MAC vs Digital Signature        | Shared-key authentication vs asymmetric signing                |
+| DAC vs MAC vs RBAC              | Discretion vs security labels vs roles                         |
+| ACL vs Capability               | Object-centric vs holder-centric                               |
+| MFA vs SSO                      | Multiple factors vs shared login arrangement                   |
+| Stateless vs Stateful           | Independent packets vs connection tracking                     |
+| IDS vs IPS                      | Detect and alert vs detect and prevent                         |
+| DRP vs BCP                      | Restore systems vs maintain operations                         |
+| Cold vs Hot Site                | Basic unprepared infrastructure vs prepared infrastructure     |
+
+## 2. Essential Formulas
+
+Pairwise Symmetric Keys
+
+\\[ N=\frac{n(n-1)}2 \\]
+
+Single Loss Expectancy
+
+\\[ SLE=AV\times EF \\]
+
+Annualized Loss Expectancy
+
+\\[ ALE=SLE\times ARO \\]
+
+Shift Cipher Encryption
+
+\\[ E(x)=(x+k)\bmod26 \\]
+
+Shift Cipher Decryption
+
+\\[ D(y)=(y-k)\bmod26 \\]
+
+Stream Cipher Encryption
+
+\\[ C=P\oplus K \\]
+
+Stream Cipher Decryption
+
+\\[ P=C\oplus K \\]
+
+## 3. High-Value Definitions for 1–2 Mark Questions
+
+| Term      | Short English Exam Answer                                         |
+| --------- | ----------------------------------------------------------------- |
+| CIA Triad | Confidentiality, Integrity, Availability                          |
+| GRC       | Governance, Risk Management, Compliance                           |
+| OCTAVE    | Operationally Critical Threat, Asset and Vulnerability Evaluation |
+| COBIT     | Framework for governance and management of enterprise IT          |
+| SLE       | Expected loss from one occurrence                                 |
+| ALE       | Expected annualized loss                                          |
+| DAC       | Discretionary Access Control                                      |
+| RBAC      | Role-Based Access Control                                         |
+| ACL       | Access Control List                                               |
+| MFA       | Multifactor Authentication                                        |
+| SSO       | Single Sign-On                                                    |
+| PKI       | Public Key Infrastructure                                         |
+| CA        | Certificate Authority                                             |
+| CRL       | Certificate Revocation List                                       |
+| HMAC      | Hash-Based Message Authentication Code                            |
+| SDO       | Service Delivery Objective                                        |
+| MTO       | Maximum Tolerable Outage                                          |
+| DMZ       | Demilitarized Zone                                                |
+| IDS       | Intrusion Detection System                                        |
+| IPS       | Intrusion Prevention System                                       |
+| UTM       | Unified Threat Management                                         |
+| SIEM      | Security Information and Event Management                         |
+| VPN       | Virtual Private Network                                           |
+
+# How to Revise All 260 Cards Effectively
+
+සියලුම cards එක දිගට කියවලා memorize කරන්න උත්සාහ කරනවාට වඩා Active Recall method එක භාවිත කරන්න.
+
+Revision Checklist
+
+Cards 001–040: Security Fundamentals and Controls
+
+Cards 041–080: GRC, Risk Management, OCTAVE
+
+Cards 081–120: Cryptography and Symmetric Ciphers
+
+Cards 121–160: Public-Key Cryptography, Hashing, MAC
+
+Cards 161–200: Access Control and Authentication
+
+Cards 201–240: DRP, BCP and Network Security
+
+Cards 241–260: Integrated Scenarios and Past-Paper Extensions
+
+0 of 7 groups completed
+
+0%
+
+### Suggested three-pass revision
+
+Pass 1 – Understand: Theory Background Recall එක කියවලා Cards වල answer අර්ථය තේරුම් ගන්න.
+
+Pass 2 – Active Recall: Question එක බලලා answer එක English වලින් කියන්න හෝ ලියන්න. වැරදෙන cards numbers වෙනම mark කරගන්න.
+
+Pass 3 – Exam Simulation: Random cards තෝරලා answer බලන්නේ නැතුව time limit එකක් යටතේ solve කරන්න. Especially scenario questions වල technical keywords අනිවාර්යයෙන් භාවිත කරන්න.
+
+### How much should you write in the real examination?
+
+| Question Type         | Suggested Answer Approach                                  |
+| --------------------- | ---------------------------------------------------------- |
+| 1 mark – MCQ          | Select correct option carefully                            |
+| 1 mark – Short Answer | Exact term or concise definition                           |
+| 2 marks               | Definition + explanation/example                           |
+| 3–4 marks             | Identify concept + 2–3 accurate points                     |
+| 5–6 marks             | Explain mechanism, comparison, or scenario justification   |
+| 7–8 marks             | Structured answer with multiple relevant, justified points |
+
+මෙය official marking scheme එකක් නොව, ඔබගේ announced paper structure එකට ගැළපෙන practice technique එකක්.
+
+Final exam strategy: ඔබේ paper එකේ Part 1 සහ Part 2 එකතුව marks 78ක්. ඒ නිසා කෙටි questions වලට ඉක්මනින්, නිවැරදිව answer කිරීමත් Part 3 සඳහා realistic scenarios analyze කිරීමත් දෙකම අවශ්‍යයි.
+
+මේ 260-card text collection එකෙන් full-syllabus recall, past-paper concepts, calculations සහ integrated scenario practice එකට cover කරන්න පුළුවන්.

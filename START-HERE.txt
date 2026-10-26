@@ -1,10 +1,29 @@
-IAS NEW EXAM PREPARATION
-552 new questions,46 perlecture, with English answers and simple Sinhala explanations.
-Extract this ZIP fully, then open index.html and choose New exam prep.
-Direct section: index.html#/mock
-Confirmed structure:35questions/35marks;11questions/43marks;3questions/22marks.
-All lectures are eligible in all parts. No calculators.
-The notice does not state a duration; the practice timer is selectable.
-Single/multiple MCQs and blanks are checked automatically. Written work is self-marked with suggested rubrics.
-Use Export new-exam progress to back up your question-card progress and saved paper.
-The original1,329 revision cards and65past-paper parts are also included.
+IAS REVISION — UPDATED THEORY RECALL AND FLASHCARDS
+
+Extract the entire ZIP, then open index.html in a modern browser.
+
+Choose Theory recall from the menu for your supplied notes.
+Direct section: index.html#/theory
+New exam practice: index.html#/mock
+
+Included content:
+- 1,329 original revision cards.
+- 260 supplied cards: 240 weekly cards and 20 bonus cards.
+- 12 Sinhala theory summaries, a bonus summary, and rapid-reference tables.
+- 552 new mock-exam questions.
+
+Revision and mock flashcards now share a consistent design and a two-way 3D flip.
+Use Previous/Next, First/Last, or the card-number box to navigate.
+Space flips; arrow keys move between cards when you are not typing.
+On touch devices, swipe a question horizontally to move between cards.
+Reduced-motion preferences use an instant flip.
+
+Footer: made with LOVE by RGCS
+
+GITHUB / VERCEL
+Replace your repository's root files with ALL the extracted contents.
+Keep every JavaScript/CSS file and the materials/ and notices/ folders.
+Use the Other framework preset, no install/build command, and output directory '.'.
+No server or dependencies are required to run this static website.
+
+Progress stays in each browser. Export backups using the progress controls.
