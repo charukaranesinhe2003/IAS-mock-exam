@@ -1,0 +1,23 @@
+{
+  "uniqueQuestions": 50,
+  "numberedOccurrences": 150,
+  "sourcePages": 44,
+  "duplicatesRemoved": 100,
+  "formats": {
+    "blank": 1,
+    "fill": 3,
+    "match": 7,
+    "multi": 6,
+    "single": 33
+  },
+  "corrected": [
+    25,
+    37
+  ],
+  "discussionOnly": [
+    4,
+    50
+  ],
+  "videoTranscriptVerified": false,
+  "sourceNotes": "The PDF has 150 numbered occurrences, comprising three copies of 50 questions. The second copy prints Question 1 as 51. Each unique question is included once. Wording is cleaned; completed matches are turned into exercises. Q19, Q22 and Q48 are adapted into typed blanks. Corrected and ambiguous keys are explicitly identified. Video metadata was verified; captions could not be retrieved, so explanations are independently authored from the PDF and supplied lectures."
+}

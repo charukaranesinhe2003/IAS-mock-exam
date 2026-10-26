@@ -1,29 +1,44 @@
-IAS REVISION — UPDATED THEORY RECALL AND FLASHCARDS
+IAS REVISION — PDF QUESTION WORKSHOP UPDATE
 
-Extract the entire ZIP, then open index.html in a modern browser.
+Extract the COMPLETE ZIP, then open index.html in a modern browser.
 
-Choose Theory recall from the menu for your supplied notes.
-Direct section: index.html#/theory
-New exam practice: index.html#/mock
+NEW PAGE: index.html#/paper
+50 unique questions from IAS - Question new.pdf, in original question order.
+Attempt each MCQ, matching exercise or typed question before revealing the
+English answer and simple Sinhala explanation. Animated flashcards, diagrams,
+source PDF links, keyboard/jump navigation, bookmarks, filters and a review
+list are included. Answers and ratings save on this browser/device.
+The workshop has its own Export PDF practice / Import backup controls.
 
-Included content:
-- 1,329 original revision cards.
-- 260 supplied cards: 240 weekly cards and 20 bonus cards.
-- 12 Sinhala theory summaries, a bonus summary, and rapid-reference tables.
-- 552 new mock-exam questions.
+The 44-page PDF repeats the same 50 questions three times. The workshop
+includes each once, rather than presenting duplicated questions as new content.
+Q25 and Q37 have corrected keys; Q37 also completes a truncated option.
+Q4 and Q50 have ambiguous/conflicting wording and are discussion-only.
+Other source simplifications are explained when you reveal the answer.
+The original PDF in materials/ is unchanged.
 
-Revision and mock flashcards now share a consistent design and a two-way 3D flip.
-Use Previous/Next, First/Last, or the card-number box to navigate.
-Space flips; arrow keys move between cards when you are not typing.
-On touch devices, swipe a question horizontally to move between cards.
-Reduced-motion preferences use an instant flip.
+The supplied Kuppi Lab YouTube discussion is linked from each question.
+You can also load a video player from the workshop library's source panel.
+Video needs internet. The question data, answers and explanations work offline.
+Captions could not be retrieved; explanations are independently authored from
+the supplied PDF and lecture sources, not a verified video transcription.
 
-Footer: made with LOVE by RGCS
+OTHER PAGES
+- Illustrated Weeks 9–12 guide: index.html#/guide
+- Theory recall: index.html#/theory
+- New exam preparation: index.html#/mock
+- Original study cards: index.html#/cards
+Included: 1,329 original cards + 260 provided recall cards, 552 mock questions,
+the guide's separate 49-question/100-mark paper, and this 50-question workshop.
+The existing detailed-notice 35/43/22-mark mock format remains available.
 
 GITHUB / VERCEL
 Replace your repository's root files with ALL the extracted contents.
-Keep every JavaScript/CSS file and the materials/ and notices/ folders.
-Use the Other framework preset, no install/build command, and output directory '.'.
-No server or dependencies are required to run this static website.
+Upload the extracted files, not this ZIP, and keep the materials/ and notices/
+folders plus every JavaScript/CSS file. The new workshop needs paper-data.js,
+paper-practice.js and paper-practice.css (included).
+No dependencies, server or build command are required.
+Vercel: Framework preset Other; Root directory repository root;
+leave build/install commands empty; Output directory '.'.
 
-Progress stays in each browser. Export backups using the progress controls.
+Footer: made with LOVE by RGCS
